@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+main{
+    background-color: #f9f9f9;
+    
+
+}
+a {
+  color: #848484;
+}
+.navegacao {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+.logo_header {
+  padding: 1% 0 0 5%;
+}
+
+.header_direita {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.login {
+  display: flex;
+  justify-content: end;
+  background-color: #cae5ff;
+  padding: 0.5%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+
+.banner_home {
+  width: 100%;
+}
+
+.atendimento_oftalmo {
+  display: flex;
+  background-color: #f9f9f9;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+.titulo_atendimento {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.875rem;
+  color: #003a66;
+  margin: 1%;
+}
+
+.texto_atendimento {
+  width: 40%;
+}
+
+.cards {
+    margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.cards p {
+  color: #8f92cb;
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_whatsapp{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 70%;
+    border-radius: 24px;
+}
+
+.icone_card{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 1%;
+    margin:3%;
+    background-color: #cae5ff;
+    height: 1%;
+    border-radius: 100%;
+    
+}
+
+.icone_real{
+    width: 50px;
+}
+.texto_card{
+    display: flex;
+    flex-direction: column;
+}
