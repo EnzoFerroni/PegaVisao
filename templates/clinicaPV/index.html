@@ -6,16 +6,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica Pega Visão</title>
-    <link rel="shortcut icon" href="/images/icone.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{% static '/images/icone.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'styles/style.css' %}">
 </head>
 <body>
     <header class="header_home">
         <nav class="navegacao">
             <div class="header_direita">
-                <a class="logo_header" href="#"><img src="{% static '/images/logo_pega_visao.jpg'%}" alt="Logo Clínica Pega Visão"></a>
-                <a href="#">Sobre</a>
-                <a href="">Serviços</a>
+                <a class="logo_header" href="{% url 'home' %}"><img src="{% static '/images/logo_pega_visao.jpg'%}" alt="Logo Clínica Pega Visão"></a>
+                <a href="{% url 'sobre' %}">Sobre</a>
+                <a href="#atendimento_oftalmo">Serviços</a>
                 <a href="">Contato</a>
             </div>
                 <a class="login" href="">ENTRE AQUI</a>
@@ -24,7 +24,7 @@
     <main>
         <img class="banner_home" src="{% static '/images/banner_home.jpg'%}" alt="Banner Bem-vindo á Clínica Pega Visão">
         
-        <article class="atendimento_oftalmo">
+        <article class="atendimento_oftalmo" id="atendimento_oftalmo">
             <h2 class="titulo_atendimento">Atendimento Oftalmológico</h1>
             <p class="texto_atendimento">Nossa experiência e comprometimento profissional aliados a uma ampla área de diagnósticos, procedimentos cirúrgicos e serviços especializados, garantem a cobertura ideal para qualquer tipo de tratamento de saúde ocular.
             </p>

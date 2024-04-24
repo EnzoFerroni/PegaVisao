@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+  
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(227, 249, 249);
+}
+
+/********Header*********/
+a {
+    color: #848484;
+  }
+  .navegacao {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+
+  }
+  .logo{
+    padding-bottom: 7.9%;
+    
+  }
+  .logo_header {
+    padding: 1% 0 0 5%;
+  }
+header{
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    
+    background-color: #ffff;
+}
+  .header_direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    font-weight: 500;
+    font-size: 1.125rem;
+    
+  }
+  .login {
+    display: flex;
+    justify-content: end;
+    background-color: #cae5ff;
+    padding: 0.5%;
+    margin-right: 2%;
+    border-radius: 5px;
+  } 
+/********* Body********/
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffff;
+}
+.section-primary{
+    width: 100%;
+    height: 60vh
+
+}
+.image-primary{
+    width:100% ;
+}
+.section-estrutura{
+    background: rgb(249, 249, 249);
+    width: 100%;
+    height: 120vh;
+    border: 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-estrutura{
+    width: 35%;
+    
+    margin-top: 5%;
+    margin-bottom:5% ;
+}
+.images-estrutura{
+    margin-bottom: 3%;
+    width: 35%;
+    
+}
+.div-images{
+    width: 35%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+.h1-estrutura{
+    margin-bottom: 6%;
+    color: #003A66;
+    font-size: 200%;
+    font-family:"Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    height: 50%;
+    font-weight: 500;
+}
+.p-estrutura{
+    color: #6D6E71;
+    font-size: 1.0em;
+    margin-bottom: 3%;
+}
+.images-estrutura{
+    display: flex;
+    align-items: center;
+
+    width: 33%;
+    
+    padding-top: 5%;
+    padding-left: 2%;
+
+}
+.section-responsabilidade{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1%;
+    background: rgb(227, 249, 249);
+    width: 100%;
+    height: 90vh;
+}
+.section-resp-h2{
+    font-size: 30px;
+    color: #003a66;
+    line-height: 1.2;
+    text-align: center;
+
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+}
+
+.div-primary-resp , .div-second-resp{
+    background-color: #ffff;
+    width: 170vh;
+    height: 32vh;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-bottom: 3%;
+}
+.div-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding:0 10px 0 20px
+
+}
+.subdiv-resp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+.section-resp-h3{
+   font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+   color: #003967;
+   margin-bottom: 2%;
+   
+   font-weight: 500;
+}
+/* .div-second-resp{
+    background-color: #ffff;
+    width: 170vh;
+    height: 32vh;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-bottom: 3%;
+} */
+/*********Footer********/
+.footer-main{
+    width: 100%;
+    height:80vh;
+    background-color: #003967;
+
+}
+.footer-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border-bottom: 1px solid rgb(51, 95, 152)
+    
+}
+.fut{
+    width: 20%;
+    height: 35vh;
+    
+
+}
+.footer-h4{
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.p-fut{
+    color: #FFF;
+}
+
+.footer-second{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+/**********CARROSSEL********/
+/* Add Zoom Animation EFEITO DE ABRIR O CARROSSEL */
+.animate {
+    animation: animatezoom 0.6s;
+    animation-duration:2s;
+  }
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+.carousel-inner{
+    border:5px solid white
+}
+.hide-carrossel /*div-carrossel*/{
+    display: none;
+    
+    
+}
+
+.show-carrossel{
+    display: block;
+    width: 40vw;
+    height: 30vh;
+    position: fixed;
+    top: 5vh;
+
+    left:30vw;
+    opacity: 1;
+
+    /* margin-left: 23%; */
+    
+    
+}
+
+.main-carrossel{
+  display: flex;
+  flex-direction: column;   
+}
+.div-button-fechar{
+    display: flex;
+    justify-content:end ;
+}
+.icone-fechar{
+   width: 5%;
+    
+}
+#demo{
+    height: 100%
+}
+.opacidade50
+{
+    opacity: 0.5;
+    background-color: #909196;
+}
+.classeIMG { 
+    transition: 0.5s; 
+}
+.classeIMG:hover { 
+    transform: scale(1.1); 
+}
